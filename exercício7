@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 7</title>
+  </head>
+<body>
+    Conversão de milhas marítimas em quilômetros:<br>
+
+    <script language="javascript">
+        milhas = parseFloat(window.prompt("Insira o número de milhas desejado: "));
+    
+        milhasEmMetros = 1852 * milhas
+
+        km = milhasEmMetros/ 1000
+
+        document.write("<body bgcolor ='#1E90FF'>");
+        document.write("<b>", milhas, "</b> milhas são <b>", km, "</b> quilômetros.");
+    </script>
+</body>
+</html>
