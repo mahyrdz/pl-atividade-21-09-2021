@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 5</title>
+  </head>
+<body>
+    Qual a média aritmética entre os quatro valores digitados?<br>
+
+    <script language="javascript">
+        primeiro = parseFloat(window.prompt("Insira o primeiro valor: "));
+        segundo = parseFloat(window.prompt("Insira o segundo valor: "));
+        terceiro = parseFloat(window.prompt("Insira o terceiro valor: "));
+        quarto = parseFloat(window.prompt("Insira o quarto valor: "));
+
+        média = (primeiro + segundo + terceiro + quarto) / 4
+
+        document.write("<body bgcolor ='#1E90FF'>");
+        document.write("A média aritmética entre esses valores é igual a <b>", média, "</b>.");
+    </script>
+</body>
+</html>
