@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 6</title>
+  </head>
+<body>
+    Qual a média geométrica entre os dois valores digitados?<br>
+
+    <script language="javascript">
+        primeiro = parseFloat(window.prompt("Insira o primeiro valor: "));
+        segundo = parseFloat(window.prompt("Insira o segundo valor: "));
+    
+        média = Math.sqrt(primeiro * segundo)
+
+        document.write("<body bgcolor ='#1E90FF'>");
+        document.write("A média geométrica entre esses valores é igual a <b>", média, "</b>.");
+    </script>
+</body>
+</html>
