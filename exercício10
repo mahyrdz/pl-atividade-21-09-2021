@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 10</title>
+  </head>
+<body>
+    O maior número entre os dois inseridos 
+
+    <script language="javascript">
+        primeiro = parseFloat(window.prompt("Insira o primeiro número: "));
+        segundo = parseFloat(window.prompt("Insira o segundo número: "));
+    
+        maiorNúmero = Math.max(primeiro, segundo)
+
+        document.write("<body bgcolor ='#1E90FF'>");
+          
+        if (primeiro == segundo)
+        document.write("não existe, já que <b>eles são idênticos</b>.");
+
+        else
+        document.write(" é <b>", maiorNúmero, "</b>.");
+    </script>
+</body>
+</html>
