@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 15</title>
+  </head>
+<body>    
+<script language="javascript">
+            document.write("<body bgcolor ='#1E90FF'>");
+
+            valor1 = parseFloat(window.prompt(("Digite o primeiro valor: ")));
+
+            do (valor2 = parseFloat(window.prompt(("Digite o segundo valor (que deve ser maior que o primeiro): "))))
+            while (valor1 >= valor2)
+
+            document.write("<b>", valor2, "</b> é maior que <b>", valor1, "</b>.");
+    </script>
+</body>
+</html>
