@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 13</title>
+  </head>
+<body>
+    Esses valores formam que tipo de triângulo? <br>
+    
+<script language="javascript">
+        primeiroL = parseFloat(window.prompt("Insira o primeiro valor: "));
+        segundoL = parseFloat(window.prompt("Insira o segundo valor: "));
+        terceiroL = parseFloat(window.prompt("Insira o terceiro valor: "));
+
+        document.write("<body bgcolor ='#1E90FF'>");
+
+        if (primeiroL == segundoL && segundoL != terceiroL ||
+            primeiroL == terceiroL && terceiroL != segundoL ||
+            segundoL == terceiroL && terceiroL !=primeiroL)
+        document.write("Essas medidas formam um <b>triângulo isósceles</b>.");
+
+        else if (primeiroL == segundoL && segundoL == terceiroL)
+        document.write("Essas medidas formam um <b>triângulo equilátero</b>.");
+
+        else if (primeiroL != segundoL != terceiroL)
+        document.write("Essas medidas formam um <b>triângulo escaleno</b>.");
+
+        else
+        document.write("Essas medidas <b>não</b> formam um triângulo.");
+    </script>
+</body>
+</html>
