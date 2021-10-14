@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 14</title>
+  </head>
+<body>
+    Esses valores formam um triângulo retângulo? <br>
+    
+<script language="javascript">
+            valorA = parseFloat(window.prompt(("Digite o primeiro valor: ")));
+            valorB = parseFloat(window.prompt(("Digite o segundo valor: ")));
+            valorC = parseFloat(window.prompt(("Digite o terceiro valor: ")));
+
+            document.write("<body bgcolor ='#1E90FF'>");
+
+            if (valorB * valorB + valorC * valorC == valorA * valorA)
+            {Console.WriteLine("<b>Sim!</b> Eles formam um triângulo retângulo!");}
+
+            else if (valorA * valorA + valorC * valorC == valorB * valorB)
+            {Console.WriteLine("<b>Sim!</b> Eles formam um triângulo retângulo!");}
+
+            else if(valorA * valorA + valorB * valorB == valorC * valorC)
+            {Console.WriteLine("<b>Sim!</b> Eles formam um triângulo retângulo!");}
+
+            else 
+            Console.WriteLine("Eles <b>não</b> formam um triângulo retângulo!");
+    </script>
+</body>
+</html>
