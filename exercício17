@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 17
+    </title>
+  </head>
+<body>   
+<script language="javascript">
+            document.write("<body bgcolor ='#1E90FF'>");
+            
+                númeroMultiplicado = parseFloat(window.prompt(("Digite um valor positivo: ")));
+
+            document.write("<h3><b>Tabuada do número ", númeroMultiplicado, "</b></h3>");
+            
+            for (contador = 0; contador < 11; ++contador)
+            {
+                tabuada =  númeroMultiplicado * contador;
+                document.write(númeroMultiplicado, " X ", contador, " = <b>", tabuada, "</b><br>");
+            }
+    </script>
+</body>
+</html>
