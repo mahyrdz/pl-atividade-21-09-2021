@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 20
+    </title>
+  </head>
+<body>   
+
+    Os trinta primeiros valores da série de Fibonacci são:<br>
+
+    <script language="javascript">
+      document.write("<body bgcolor ='#1E90FF'>");
+        
+        primNum = 0
+        segNum = 1
+
+        for (cont = 1; cont <= 30; cont++) 
+        { 
+            aux = primNum;
+			      primNum = segNum;
+			      segNum = primNum + aux;
+            document.writeln("<b>", segNum, "</b><br>")
+        }
+    </script>
+</body>
+</html>
