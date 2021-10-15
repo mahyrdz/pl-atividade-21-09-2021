@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 19
+    </title>
+  </head>
+<body>   
+
+    Soma dos números inteiros positivos do intervalo de um a cem:
+
+    <script language="javascript">
+      document.write("<body bgcolor ='#1E90FF'>");
+        
+        resultado = 0 
+
+        for (numero = 1; numero <= 100; numero++) 
+        { 
+            resultado = resultado + numero
+        }
+        document.writeln("<b>", resultado, "</b>")
+    </script>
+</body>
+</html>
