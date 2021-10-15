@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 18
+    </title>
+  </head>
+<body>   
+    <script language="javascript">
+      document.write("<body bgcolor ='#1E90FF'>");
+        
+        for (numero = 1; numero < 21; numero++) 
+        {
+          document.writeln("<table border = '1'> <tr> <td>", numero, " X 1 = <b>", numero ,"</b></td> <td colspan = '3'></td></tr> <tr><td rowspan = '3'></td>");
+          for (contador1 = 2; contador1 < 5; contador1++) 
+          {
+            document.writeln("<td>");
+            tabuada1 = numero * contador1;
+            document.writeln(numero, " X ", contador1, " = <b>", tabuada1, "</b><br>");
+            document.writeln("</td>");
+          }
+          document.writeln("</tr>");
+
+          document.writeln("<tr>");
+          for (contador2 = 5; contador2 < 8; contador2++) 
+          {
+            document.writeln("<td>");
+            tabuada2 = numero * contador2;
+            document.writeln(numero, " X ", contador2, " = <b>", tabuada2, "</b><br>");
+            document.writeln("</td>");
+          }
+          document.writeln("</tr>");
+
+          document.writeln("<tr>");
+          for (contador3 = 8; contador3 < 11; contador3++) 
+          {
+            document.writeln("<td>");
+            tabuada3 = numero * contador3;
+            document.writeln(numero, " X ", contador3, " = <b>", tabuada3, "</b><br>");
+            document.writeln("</td>");
+          }
+          document.writeln("</tr>");
+
+          document.writeln("</table><br><br>");
+        }
+    </script>
+</body>
+</html>
